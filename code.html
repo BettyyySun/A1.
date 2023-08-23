@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS, and Git Practice</title>
+    <style>
+        /* Inline Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #642020;
+            text-align: center;
+        }
+        /* Internal Styles */
+        form {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid rgb(155, 152, 152);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #343434;
+        }
+        input[type="text"],
+        input[type="email address"],
+        textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: yellow;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: yellow;
+        }
+        h1 {
+            color:blue;
+        }
+        h2 {
+            color:antiquewhite;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hello！Welcome to My Website！！</h1>
+    <h2>By Enjia(Betty) Sun </h2>
+
+    <img src="demo.jpg" style="width: 300px; height: auto;">
+
+    <table>
+        <tr>
+            <th>Today Weather</th>
+            <th>Tomorrow Weather</th>
+        </tr>
+        <tr>
+            <td>8°-15°</td>
+            <td>9°-14°</td>
+        </tr>
+        <tr>
+            <td>Cloudy</td>
+            <td>Sunny</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="names">Name:</label>
+        <input type="text" id="names" name="names"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
